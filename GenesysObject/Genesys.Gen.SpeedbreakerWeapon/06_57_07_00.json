@@ -1,0 +1,95 @@
+{
+    "Genesys.Gen.SpeedbreakerWeapon": {
+        "TypeID": "0x00075705",
+        "TypeIDType": 0,
+        "TypeIDIndex": 0,
+        "Properties": {
+            "AdditionalVelocity": {
+                "Elements": [0.0, 0.0, 0.0]
+            },
+            "SpawnOffset": {
+                "Elements": [0.0, 0.0, 0.0]
+            },
+            "FiredSequence": { "Id": "0x00075711", "Index": 0, "IdType": "E_ID_TYPE_GAMECHANGER" },
+            "OnHitSequence": { "Id": null, "Index": null, "IdType": null },
+            "RechargeData": { "Id": "0x00045FAC", "Index": 0, "IdType": "E_ID_TYPE_GAMECHANGER" },
+            "WorldComponent": { "Id": null, "Index": null, "IdType": null },
+            "GameChangerID": "0x00075706",
+            "Image": "0x00000000",
+            "Name": "0x00075707",
+            "Scoring_CopAvoids": "0x00000000",
+            "Scoring_CopHit": "0x00000000",
+            "Scoring_RacerUsed": "0x00000000",
+            "Scoring_TakedownOffline": "0x00000000",
+            "Scoring_TakedownOnline": "0x00000000",
+            "ShortName": "0x0008DE3B",
+            "UpgradesCount": 0,
+            "MakeTrafficPhysicalOffset": 2.0,
+            "RechargeTime": 3.0,
+            "SelfInflictedDamageScale": 0.25,
+            "HUDColourBed": {
+                "Genesys.Gen.UIColour": {
+                    "TypeID": "0x00072ABE",
+                    "TypeIDType": 0,
+                    "TypeIDIndex": 0,
+                    "Properties": {
+                        "ReferenceName": {
+                            "Capacity": 1,
+                            "Buffer": ""
+                        },
+                        "GameChangerID": "0x0007A420",
+                        "Colour": {
+                            "Channels": [120, 149, 177, 255]
+                        },
+                        "ReferenceNameHash": 0
+                    }
+                }
+            },
+            "HUDColourDetail": {
+                "Genesys.Gen.UIColour": {
+                    "TypeID": "0x00072ABE",
+                    "TypeIDType": 0,
+                    "TypeIDIndex": 0,
+                    "Properties": {
+                        "ReferenceName": {
+                            "Capacity": 1,
+                            "Buffer": ""
+                        },
+                        "GameChangerID": "0x0005AB57",
+                        "Colour": {
+                            "Channels": [228, 242, 254, 255]
+                        },
+                        "ReferenceNameHash": 0
+                    }
+                }
+            },
+            "HUDColourFill": {
+                "Genesys.Gen.UIColour": {
+                    "TypeID": "0x00072ABE",
+                    "TypeIDType": 0,
+                    "TypeIDIndex": 0,
+                    "Properties": {
+                        "ReferenceName": {
+                            "Capacity": 1,
+                            "Buffer": ""
+                        },
+                        "GameChangerID": "0x0007A41B",
+                        "Colour": {
+                            "Channels": [173, 196, 210, 255]
+                        },
+                        "ReferenceNameHash": 0
+                    }
+                }
+            },
+            "DeployType": "REUSABLE",
+            "Slot": "Speedbreaker",
+            "UniqueOnHitSequence": false,
+            "UseSpawningCarVelocity": true,
+            "InitialAmmo": 3,
+            "CameraSpeedModifier": 0.07500000298023224,
+            "LateralGripModifier": 0.30000001192092896,
+            "SteeringControlModifier": 0.75,
+            "TimeSlowScale": 0.20000000298023224
+        }
+    }
+}
