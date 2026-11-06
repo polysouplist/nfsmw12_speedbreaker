@@ -5,7 +5,7 @@
         "TypeIDIndex": 0,
         "Properties": {
             "Binding": {
-                "Capacity": 1,
+                "Capacity": 21,
                 "Buffer": "Polly's Speedbreaker"
             },
             "GameChangerID": "0x00075711",
