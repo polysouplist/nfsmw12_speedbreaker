@@ -1,0 +1,1257 @@
+{
+    "Genesys.Gen.SpeedbreakerWeapon": {
+        "ID": "0x00075705",
+        "Version": "0x0624807E",
+        "Size": "0xB0",
+        "Alignment": "0x10",
+        "NativeType": "E_NATIVETYPE_GENESYSOBJECT",
+        "GenesysVersion": "0x2",
+        "BaseTypeInfo": {
+            "Id": "0x0006CBDB",
+            "ResourceTypeId": 0,
+            "Index": 0,
+            "IdType": "E_ID_TYPE_GAMECHANGER",
+            "BaseType": "Genesys.Gen.Weapon",
+            "BaseTypeVersion": "0x5F99DBF9"
+        },
+        "Properties": {
+            "AdditionalVelocity": {
+                "Type": "rw.math.vpu.Vector3",
+                "TypeVersion": "0xF399F5A5",
+                "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                "Offset": "0x10",
+                "Count": "0x1",
+                "TypeSize": "0x10",
+                "TypeAlignment": "0x10",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB6440AB1",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "Elements": {
+                        "Type": "float32_t",
+                        "TypeVersion": "0x9F5697E4",
+                        "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                        "Offset": "0x0",
+                        "Count": "0x3",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_ARRAY",
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x530A6D87",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "SpawnOffset": {
+                "Type": "rw.math.vpu.Vector3",
+                "TypeVersion": "0xF399F5A5",
+                "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                "Offset": "0x20",
+                "Count": "0x1",
+                "TypeSize": "0x10",
+                "TypeAlignment": "0x10",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB6440AB1",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "Elements": {
+                        "Type": "float32_t",
+                        "TypeVersion": "0x9F5697E4",
+                        "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                        "Offset": "0x0",
+                        "Count": "0x3",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_ARRAY",
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x530A6D87",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "FiredSequence": {
+                "Type": "CgsResource.Handle",
+                "TypeVersion": "0x8A89E1A3",
+                "ImportNativeType": "E_NATIVETYPE_RESOURCE_HANDLE",
+                "Offset": "0x30",
+                "Count": "0x1",
+                "TypeSize": "0x8",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x0B3FE48A",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "OnHitSequence": {
+                "Type": "CgsResource.Handle",
+                "TypeVersion": "0x8A89E1A3",
+                "ImportNativeType": "E_NATIVETYPE_RESOURCE_HANDLE",
+                "Offset": "0x38",
+                "Count": "0x1",
+                "TypeSize": "0x8",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x0B3FE48A",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "RechargeData": {
+                "Type": "CgsResource.Handle",
+                "TypeVersion": "0x8A89E1A3",
+                "ImportNativeType": "E_NATIVETYPE_RESOURCE_HANDLE",
+                "Offset": "0x40",
+                "Count": "0x1",
+                "TypeSize": "0x8",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x0B3FE48A",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "WorldComponent": {
+                "Type": "CgsResource.Handle",
+                "TypeVersion": "0x8A89E1A3",
+                "ImportNativeType": "E_NATIVETYPE_RESOURCE_HANDLE",
+                "Offset": "0x48",
+                "Count": "0x1",
+                "TypeSize": "0x8",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x0B3FE48A",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "GameChangerID": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x50",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Image": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x54",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Name": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x58",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Scoring_CopAvoids": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x5C",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Scoring_CopHit": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x60",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Scoring_RacerUsed": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x64",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Scoring_TakedownOffline": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x68",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Scoring_TakedownOnline": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x6C",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "ShortName": {
+                "Type": "CgsCore.UniqueId",
+                "TypeVersion": "0xEFB90683",
+                "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                "Offset": "0x70",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0xB92285F2",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "Upgrades": {
+                "Type": "CgsResource.Handle",
+                "TypeVersion": "0x8A89E1A3",
+                "ImportNativeType": "E_NATIVETYPE_RESOURCE_HANDLE",
+                "Offset": "0x74",
+                "Count": "0x1",
+                "TypeSize": "0x8",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_POINTER",
+                    "E_VALUETYPE_ARRAY",
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x0B3FE48A",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": "UpgradesCount",
+                "Properties": {}
+            },
+            "MakeTrafficPhysicalOffset": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0x78",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "RechargeTime": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0x7C",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "SelfInflictedDamageScale": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0x80",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "HUDColourBed": {
+                "Type": "Genesys.Gen.UIColour",
+                "TypeVersion": "0xE2E84AD0",
+                "ImportNativeType": "E_NATIVETYPE_GENESYSOBJECT",
+                "Offset": "0x84",
+                "Count": "0x1",
+                "TypeSize": "0x20",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_POINTER",
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x00072ABE",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_GAMECHANGER"
+                },
+                "BaseTypeInfo": {
+                    "Id": "0x2EDB25E7",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL",
+                    "BaseType": "Genesys.Object",
+                    "BaseTypeVersion": "0xD7249543"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "ReferenceName": {
+                        "Type": "CgsCore.StringBase",
+                        "TypeVersion": "0xBEEAFB95",
+                        "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                        "Offset": "0xC",
+                        "Count": "0x1",
+                        "TypeSize": "0x8",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x40404301",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {
+                            "Buffer": {
+                                "Type": "char",
+                                "TypeVersion": "0xF7C15205",
+                                "ImportNativeType": "E_NATIVETYPE_CHAR",
+                                "Offset": "0x0",
+                                "Count": "0x1",
+                                "TypeSize": "0x1",
+                                "TypeAlignment": "0x1",
+                                "ValueType": [
+                                    "E_VALUETYPE_OFFSET",
+                                    "E_VALUETYPE_ARRAY",
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x8CFE579F",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": "Capacity",
+                                "Properties": {}
+                            },
+                            "Capacity": {
+                                "Type": "uint32_t",
+                                "TypeVersion": "0x69652ED4",
+                                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                                "Offset": "0x4",
+                                "Count": "0x1",
+                                "TypeSize": "0x4",
+                                "TypeAlignment": "0x4",
+                                "ValueType": [
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x0E2AF381",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": null,
+                                "Properties": {}
+                            }
+                        }
+                    },
+                    "GameChangerID": {
+                        "Type": "CgsCore.UniqueId",
+                        "TypeVersion": "0xEFB90683",
+                        "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                        "Offset": "0x14",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0xB92285F2",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "Colour": {
+                        "Type": "rw.RGBA",
+                        "TypeVersion": "0xA718100B",
+                        "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                        "Offset": "0x18",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x6F9D5F39",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {
+                            "Channels": {
+                                "Type": "uint8_t",
+                                "TypeVersion": "0x1D7F3435",
+                                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                                "Offset": "0x0",
+                                "Count": "0x4",
+                                "TypeSize": "0x1",
+                                "TypeAlignment": "0x1",
+                                "ValueType": [
+                                    "E_VALUETYPE_ARRAY",
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x8EABC011",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": null,
+                                "Properties": {}
+                            }
+                        }
+                    },
+                    "ReferenceNameHash": {
+                        "Type": "uint32_t",
+                        "TypeVersion": "0x69652ED4",
+                        "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                        "Offset": "0x1C",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x0E2AF381",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "HUDColourDetail": {
+                "Type": "Genesys.Gen.UIColour",
+                "TypeVersion": "0xE2E84AD0",
+                "ImportNativeType": "E_NATIVETYPE_GENESYSOBJECT",
+                "Offset": "0x88",
+                "Count": "0x1",
+                "TypeSize": "0x20",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_POINTER",
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x00072ABE",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_GAMECHANGER"
+                },
+                "BaseTypeInfo": {
+                    "Id": "0x2EDB25E7",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL",
+                    "BaseType": "Genesys.Object",
+                    "BaseTypeVersion": "0xD7249543"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "ReferenceName": {
+                        "Type": "CgsCore.StringBase",
+                        "TypeVersion": "0xBEEAFB95",
+                        "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                        "Offset": "0xC",
+                        "Count": "0x1",
+                        "TypeSize": "0x8",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x40404301",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {
+                            "Buffer": {
+                                "Type": "char",
+                                "TypeVersion": "0xF7C15205",
+                                "ImportNativeType": "E_NATIVETYPE_CHAR",
+                                "Offset": "0x0",
+                                "Count": "0x1",
+                                "TypeSize": "0x1",
+                                "TypeAlignment": "0x1",
+                                "ValueType": [
+                                    "E_VALUETYPE_OFFSET",
+                                    "E_VALUETYPE_ARRAY",
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x8CFE579F",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": "Capacity",
+                                "Properties": {}
+                            },
+                            "Capacity": {
+                                "Type": "uint32_t",
+                                "TypeVersion": "0x69652ED4",
+                                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                                "Offset": "0x4",
+                                "Count": "0x1",
+                                "TypeSize": "0x4",
+                                "TypeAlignment": "0x4",
+                                "ValueType": [
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x0E2AF381",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": null,
+                                "Properties": {}
+                            }
+                        }
+                    },
+                    "GameChangerID": {
+                        "Type": "CgsCore.UniqueId",
+                        "TypeVersion": "0xEFB90683",
+                        "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                        "Offset": "0x14",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0xB92285F2",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "Colour": {
+                        "Type": "rw.RGBA",
+                        "TypeVersion": "0xA718100B",
+                        "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                        "Offset": "0x18",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x6F9D5F39",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {
+                            "Channels": {
+                                "Type": "uint8_t",
+                                "TypeVersion": "0x1D7F3435",
+                                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                                "Offset": "0x0",
+                                "Count": "0x4",
+                                "TypeSize": "0x1",
+                                "TypeAlignment": "0x1",
+                                "ValueType": [
+                                    "E_VALUETYPE_ARRAY",
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x8EABC011",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": null,
+                                "Properties": {}
+                            }
+                        }
+                    },
+                    "ReferenceNameHash": {
+                        "Type": "uint32_t",
+                        "TypeVersion": "0x69652ED4",
+                        "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                        "Offset": "0x1C",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x0E2AF381",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "HUDColourFill": {
+                "Type": "Genesys.Gen.UIColour",
+                "TypeVersion": "0xE2E84AD0",
+                "ImportNativeType": "E_NATIVETYPE_GENESYSOBJECT",
+                "Offset": "0x8C",
+                "Count": "0x1",
+                "TypeSize": "0x20",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_POINTER",
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x00072ABE",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_GAMECHANGER"
+                },
+                "BaseTypeInfo": {
+                    "Id": "0x2EDB25E7",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL",
+                    "BaseType": "Genesys.Object",
+                    "BaseTypeVersion": "0xD7249543"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "ReferenceName": {
+                        "Type": "CgsCore.StringBase",
+                        "TypeVersion": "0xBEEAFB95",
+                        "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                        "Offset": "0xC",
+                        "Count": "0x1",
+                        "TypeSize": "0x8",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x40404301",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {
+                            "Buffer": {
+                                "Type": "char",
+                                "TypeVersion": "0xF7C15205",
+                                "ImportNativeType": "E_NATIVETYPE_CHAR",
+                                "Offset": "0x0",
+                                "Count": "0x1",
+                                "TypeSize": "0x1",
+                                "TypeAlignment": "0x1",
+                                "ValueType": [
+                                    "E_VALUETYPE_OFFSET",
+                                    "E_VALUETYPE_ARRAY",
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x8CFE579F",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": "Capacity",
+                                "Properties": {}
+                            },
+                            "Capacity": {
+                                "Type": "uint32_t",
+                                "TypeVersion": "0x69652ED4",
+                                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                                "Offset": "0x4",
+                                "Count": "0x1",
+                                "TypeSize": "0x4",
+                                "TypeAlignment": "0x4",
+                                "ValueType": [
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x0E2AF381",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": null,
+                                "Properties": {}
+                            }
+                        }
+                    },
+                    "GameChangerID": {
+                        "Type": "CgsCore.UniqueId",
+                        "TypeVersion": "0xEFB90683",
+                        "ImportNativeType": "E_NATIVETYPE_INTEGER",
+                        "Offset": "0x14",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0xB92285F2",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "Colour": {
+                        "Type": "rw.RGBA",
+                        "TypeVersion": "0xA718100B",
+                        "ImportNativeType": "E_NATIVETYPE_OBJECT",
+                        "Offset": "0x18",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x6F9D5F39",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {
+                            "Channels": {
+                                "Type": "uint8_t",
+                                "TypeVersion": "0x1D7F3435",
+                                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                                "Offset": "0x0",
+                                "Count": "0x4",
+                                "TypeSize": "0x1",
+                                "TypeAlignment": "0x1",
+                                "ValueType": [
+                                    "E_VALUETYPE_ARRAY",
+                                    "E_VALUETYPE_VALUE"
+                                ],
+                                "ImportTypeInfo": {
+                                    "Id": "0x8EABC011",
+                                    "ResourceTypeId": 0,
+                                    "Index": 0,
+                                    "IdType": "E_ID_TYPE_NORMAL"
+                                },
+                                "ArrayCountProperty": null,
+                                "Properties": {}
+                            }
+                        }
+                    },
+                    "ReferenceNameHash": {
+                        "Type": "uint32_t",
+                        "TypeVersion": "0x69652ED4",
+                        "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                        "Offset": "0x1C",
+                        "Count": "0x1",
+                        "TypeSize": "0x4",
+                        "TypeAlignment": "0x4",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ImportTypeInfo": {
+                            "Id": "0x0E2AF381",
+                            "ResourceTypeId": 0,
+                            "Index": 0,
+                            "IdType": "E_ID_TYPE_NORMAL"
+                        },
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "DeployType": {
+                "Type": "",
+                "TypeVersion": "0x823CDA6C",
+                "ImportNativeType": "E_NATIVETYPE_ENUMERATION",
+                "Offset": "0x90",
+                "Count": "0x1",
+                "TypeSize": "0x2",
+                "TypeAlignment": "0x2",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x00045FAD",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_GAMECHANGER"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "CONSUMABLE": {
+                        "Type": "",
+                        "TypeVersion": "0x00000000",
+                        "ImportNativeType": "",
+                        "Offset": "0x0",
+                        "Count": "0x1",
+                        "TypeSize": "0x0",
+                        "TypeAlignment": "0x1",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "REUSABLE": {
+                        "Type": "",
+                        "TypeVersion": "0x00000000",
+                        "ImportNativeType": "",
+                        "Offset": "0x1",
+                        "Count": "0x1",
+                        "TypeSize": "0x0",
+                        "TypeAlignment": "0x1",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "Slot": {
+                "Type": "",
+                "TypeVersion": "0xDA0B335E",
+                "ImportNativeType": "E_NATIVETYPE_ENUMERATION",
+                "Offset": "0x92",
+                "Count": "0x1",
+                "TypeSize": "0x2",
+                "TypeAlignment": "0x2",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x00045EF1",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_GAMECHANGER"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {
+                    "Defence": {
+                        "Type": "",
+                        "TypeVersion": "0x00000000",
+                        "ImportNativeType": "",
+                        "Offset": "0x0",
+                        "Count": "0x1",
+                        "TypeSize": "0x0",
+                        "TypeAlignment": "0x1",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "Disrupt": {
+                        "Type": "",
+                        "TypeVersion": "0x00000000",
+                        "ImportNativeType": "",
+                        "Offset": "0x1",
+                        "Count": "0x1",
+                        "TypeSize": "0x0",
+                        "TypeAlignment": "0x1",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "Vision": {
+                        "Type": "",
+                        "TypeVersion": "0x00000000",
+                        "ImportNativeType": "",
+                        "Offset": "0x2",
+                        "Count": "0x1",
+                        "TypeSize": "0x0",
+                        "TypeAlignment": "0x1",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    },
+                    "Speedbreaker": {
+                        "Type": "",
+                        "TypeVersion": "0x00000000",
+                        "ImportNativeType": "",
+                        "Offset": "0x3",
+                        "Count": "0x1",
+                        "TypeSize": "0x0",
+                        "TypeAlignment": "0x1",
+                        "ValueType": [
+                            "E_VALUETYPE_VALUE"
+                        ],
+                        "ArrayCountProperty": null,
+                        "Properties": {}
+                    }
+                }
+            },
+            "UniqueOnHitSequence": {
+                "Type": "bool8_t",
+                "TypeVersion": "0x413FEE0F",
+                "ImportNativeType": "E_NATIVETYPE_BOOLEAN",
+                "Offset": "0x94",
+                "Count": "0x1",
+                "TypeSize": "0x1",
+                "TypeAlignment": "0x1",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x5246D78C",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "UseSpawningCarVelocity": {
+                "Type": "bool8_t",
+                "TypeVersion": "0x413FEE0F",
+                "ImportNativeType": "E_NATIVETYPE_BOOLEAN",
+                "Offset": "0x95",
+                "Count": "0x1",
+                "TypeSize": "0x1",
+                "TypeAlignment": "0x1",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x5246D78C",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "InitialAmmo": {
+                "Type": "uint8_t",
+                "TypeVersion": "0x1D7F3435",
+                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                "Offset": "0x96",
+                "Count": "0x1",
+                "TypeSize": "0x1",
+                "TypeAlignment": "0x1",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x8EABC011",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "UpgradesCount": {
+                "Type": "uint8_t",
+                "TypeVersion": "0x1D7F3435",
+                "ImportNativeType": "E_NATIVETYPE_UNSIGNED_INTEGER",
+                "Offset": "0x97",
+                "Count": "0x1",
+                "TypeSize": "0x1",
+                "TypeAlignment": "0x1",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x8EABC011",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "CameraSpeedModifier": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0xA0",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "LateralGripModifier": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0xA4",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "SteeringControlModifier": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0xA8",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            },
+            "TimeSlowScale": {
+                "Type": "float32_t",
+                "TypeVersion": "0x9F5697E4",
+                "ImportNativeType": "E_NATIVETYPE_FLOAT",
+                "Offset": "0xAC",
+                "Count": "0x1",
+                "TypeSize": "0x4",
+                "TypeAlignment": "0x4",
+                "ValueType": [
+                    "E_VALUETYPE_VALUE"
+                ],
+                "ImportTypeInfo": {
+                    "Id": "0x530A6D87",
+                    "ResourceTypeId": 0,
+                    "Index": 0,
+                    "IdType": "E_ID_TYPE_NORMAL"
+                },
+                "ArrayCountProperty": null,
+                "Properties": {}
+            }
+        }
+    }
+}

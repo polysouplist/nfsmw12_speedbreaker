@@ -1,0 +1,17 @@
+{
+    "Genesys.Gen.WeaponList": {
+        "TypeID": "0x0006CBDD",
+        "TypeIDType": 0,
+        "TypeIDIndex": 0,
+        "Properties": {
+            "GameChangerID": "0x0006FA8F",
+            "WeaponsCount": 4,
+            "Weapons": [
+                { "Id": "0x0006345E", "Index": 0, "IdType": "E_ID_TYPE_GAMECHANGER" },
+                { "Id": "0x00075706", "Index": 0, "IdType": "E_ID_TYPE_GAMECHANGER" },
+                { "Id": "0x000E93E1", "Index": 0, "IdType": "E_ID_TYPE_GAMECHANGER" },
+                { "Id": "0x0017C1DC", "Index": 0, "IdType": "E_ID_TYPE_GAMECHANGER" }
+            ]
+        }
+    }
+}
